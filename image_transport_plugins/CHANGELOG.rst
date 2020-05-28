@@ -2,6 +2,9 @@
 Changelog for package image_transport_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.2.1 (2019-10-23)
 ------------------
 
