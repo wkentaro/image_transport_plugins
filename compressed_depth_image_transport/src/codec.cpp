@@ -135,7 +135,7 @@ sensor_msgs::Image::Ptr decodeCompressedDepthImage(const sensor_msgs::Compressed
       // Decode raw image
       try
       {
-        cv_ptr->image = cv::imdecode(imageData, CV_LOAD_IMAGE_UNCHANGED);
+        cv_ptr->image = cv::imdecode(imageData, IMREAD_UNCHANGED);
       }
       catch (cv::Exception& e)
       {
